@@ -1,0 +1,36 @@
+{
+    "name": "@coveops/recent-documents-facet",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "coveops build RecentDocumentsFacet --template typescript",
+        "watch": "coveops build RecentDocumentsFacet --template typescript --watch",
+        "serve": "coveops serve",
+        "precompile": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Coveo-Turbo/recent-document-facet.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/Coveo-Turbo/recent-document-facet/issues"
+    },
+    "homepage": "https://github.com/Coveo-Turbo/recent-document-facet#readme",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@coveops/localization-manager": "^1.0.1",
+        "@coveops/turbo-core": "^1.2.1",
+        "coveo-search-ui": "^2.10097.0"
+    },
+    "devDependencies": {
+        "@coveops/cli": "^0.17.0"
+    }
+}
